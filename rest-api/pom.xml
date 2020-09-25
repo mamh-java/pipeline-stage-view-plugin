@@ -36,13 +36,13 @@
     <version>2.16</version>
     <name>Pipeline: REST API Plugin</name>
     <description>Provides a REST API to access pipeline and pipeline run data</description>
-    <url>https://github.com/jenkinsci/pipeline-stage-view-plugin</url>
+    <url>https://github.com/mamh-java/pipeline-stage-view-plugin</url>
     <packaging>hpi</packaging>
 
     <scm>
-       <connection>scm:git:git://github.com/jenkinsci/pipeline-stage-view-plugin.git</connection>
-       <developerConnection>scm:git:git@github.com:jenkinsci/pipeline-stage-view-plugin.git</developerConnection>
-       <url>https://github.com/jenkinsci/pipeline-stage-view-plugin</url>
+       <connection>scm:git:https://github.com/mamh-java/pipeline-stage-view-plugin.git</connection>
+       <developerConnection>scm:git:https://github.com/mamh-java/pipeline-stage-view-plugin.git</developerConnection>
+       <url>https://github.com/mamh-java/pipeline-stage-view-plugin</url>
        <tag>pipeline-stage-view-2.16</tag>
     </scm>
 
