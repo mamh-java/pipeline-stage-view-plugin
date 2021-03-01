@@ -52,7 +52,7 @@ var templateCache = {
 var dateFormattingOn = true;
 var formatAliases = {
     short: 'HH:mm (MMM DD)',
-    month: 'MMM',
+    month: 'MM',
     dom: 'DD',
     time: 'HH:mm',
     ISO_8601: 'YYYY-MM-DDTHH:mm:ss',
