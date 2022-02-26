@@ -28,7 +28,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>4.31</version>
+        <version>4.37</version>
         <relativePath />
     </parent>
 
@@ -56,7 +56,7 @@
     </scm>
 
     <properties>
-        <revision>2.20</revision>
+        <revision>2.23</revision>
         <bom>2.235.x</bom>
         <jenkins.version>2.235.5</jenkins.version>
         <changelist>-SNAPSHOT</changelist>
@@ -104,6 +104,21 @@
                 <version>918.vae501d2cdc99</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-annotations</artifactId>
+                <version>4.5.3</version>
+            </dependency>
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>20211205</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yaml</groupId>
+                <artifactId>snakeyaml</artifactId>
+                <version>1.30</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
