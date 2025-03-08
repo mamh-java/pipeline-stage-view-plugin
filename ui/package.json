@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "@jenkins-cd/js-modules": "^0.0.10",
-    "jenkins-js-extp": "0.0.2",
+    "jenkins-js-extp": "0.0.3",
     "jquery": "^3.5.1",
     "moment-timezone": "0.5.35",
     "window-handle": "^1.0.0"
